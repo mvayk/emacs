@@ -14,6 +14,7 @@
   :init
   (setq evil-want-integration t)
   (setq evil-want-keybinding nil)
+  (setq evil-want-C-u-scroll t)
   :config
   (evil-mode 1))
 
@@ -33,11 +34,14 @@
   :config
   (load-theme 'doom-rouge t))
 
-(setq inhibit-startup-screen t)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode)
+
+(setq-default tab-width 4
+              indent-tabs-mode nil
+              inhibit-startup-screen t)
 
 (custom-set-variables
 '(display-line-numbers-type 'relative)) ; visual
