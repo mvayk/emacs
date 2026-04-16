@@ -1,0 +1,55 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mvayk/dev/example/" . "src/")
+ ("/home/mvayk/dev/xplatform-memory/" . "src/")
+ ("/home/mvayk/dev/" . "example/")
+ ("/home/mvayk/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mvayk/.emacs.d/"
+ "/home/mvayk/dev/example/"
+ "/home/mvayk/dev/example/src/"
+ "/home/mvayk/dev/example/src/asshole/"
+ "/home/mvayk/dev/xplatform-memory/"
+ "/home/mvayk/dev/xplatform-memory/src/games/"
+ "/home/mvayk/dev/xplatform-memory/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mvayk/.emacs.d/" (27104 27245 5812 187000) "themes/" "init.el" "url/" "custom.el" ".gitignore" "elpa/" "./" "transient/" "ido.last" "../" "auto-save-list/" ".git/" "tutorial/" "eln-cache/")
+
+ ("/home/mvayk/" (27104 27031 854445 253000) ".nix-defexpr/" ".vscode-oss/" ".cache/" ".compose-cache/" ".gtkrc-2.0.backup" ".ssh/" ".mozilla/" "go/" ".zcompdump-coerxion-5.9.zwc" "emacs/" ".gtkrc-2.0" ".gnupg/" "Videos/" ".ICEauthority" "dev/" "Documents/" ".zsh_history" ".wget-hsts" "Public/" ".pulse-cookie" ".npm/" ".local/" "./" ".nix-profile" ".nvidia-settings-rc" ".steampid" "Music/" ".zshrc" ".cargo/" ".config/" ".bash_history" "Templates/" ".icons/" "../" ".var/" ".wine/" ".ollama/" ".p10k.zsh" ".zcompdump" ".pki/" "Desktop/" ".manpath" ".zcompdump-coerxion-5.9" "Downloads/" ".themes/" ".nv/" ".zsh/" ".steam/" ".tor project/" "Pictures/" ".steampath" ".emacs.d/" ".zshenv" ".fonts/")
+
+ ("/home/mvayk/dev/example/" (27104 27047 24304 562000) "build/" "build.sh" "./" "../" "src/")
+
+ ("/home/mvayk/dev/example/src/" (27104 26920 394484 160000) ".gdb_history" "./" "../" "main.c")
+
+ ("/home/mvayk/dev/xplatform-memory/src/games/tfoc/" (27103 65076 519588 216000) "patch.rs" "./" "../" "mod.rs")
+
+ ("/home/mvayk/dev/xplatform-memory/src/bin/" (27103 65052 637794 885000) "twfc.rs" "tfoc.rs" "./" "../")
+
+ ("/home/mvayk/dev/xplatform-memory/src/" (27090 36993 608536 12000) "bin/" "./" "games/" "memory/" "../" "lib.rs")
+
+ ("/home/mvayk/dev/xplatform-memory/src/games/" (27090 36993 608505 529000) "./" "tfoc/" "../" "mod.rs" "twfc/")
+
+ ("/home/mvayk/dev/xplatform-memory/src/games/twfc/" (27103 48148 709199 264000) "patch.rs" "./" "../" "mod.rs")
+
+ ("/home/mvayk/dev/xplatform-memory/" (27090 37005 549254 669000) "target/" ".gitignore" "./" "README.md" "../" "Cargo.toml" ".git/" "Cargo.lock" "src/")
+
+ ("/home/mvayk/dev/" (27099 52152 519953 637000) "example/" "xplatform-memory/" "./" "../" "feh-rs/")
+
+ ("/home/" (27085 3218 744164 18000) "mvayk/" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

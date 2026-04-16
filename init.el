@@ -28,11 +28,17 @@
   :ensure t
   :config
   (smartparens-global-mode 1))
+(use-package rust-mode
+  :ensure t)
 
 (use-package doom-themes
   :ensure t
+  :config)
+
+(use-package gruber-darker-theme
+  :ensure t
   :config
-  (load-theme 'doom-rouge t))
+  (load-theme 'gruber-darker t))
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -41,7 +47,8 @@
 
 (setq-default tab-width 4
               indent-tabs-mode nil
-              inhibit-startup-screen t)
+              inhibit-startup-screen t
+              make-backup-files nil)
 
 (custom-set-variables
 '(display-line-numbers-type 'relative)) ; visual
@@ -53,7 +60,9 @@
 (global-set-key (kbd "C-=") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
 
+(ido-mode 1)
+(ido-everywhere 1)
+
 (require 'evil)
 (evil-mode 1)
-
 (setq evil-insert-state-cursor 'box)
