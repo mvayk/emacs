@@ -31,29 +31,31 @@
 (use-package rust-mode
   :ensure t)
 
-(use-package doom-themes
-  :ensure t
-  :config)
+;(use-package doom-themes
+; :ensure t
+; :config)
 
 (use-package gruber-darker-theme
   :ensure t
   :config
-  (load-theme 'gruber-darker t))
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode)
+(global-hl-line-mode 1)
 
 (setq-default tab-width 4
               indent-tabs-mode nil
-              inhibit-startup-screen t
-              make-backup-files nil)
+              ; inhibit-startup-screen t
+              make-backup-files nil
+              truncate-lines t)
 
 (custom-set-variables
 '(display-line-numbers-type 'relative)) ; visual
 
 (set-face-attribute 'default nil
+  ; :family "VictorMono Nerd Font Mono"
   :family "BigBlueTermPlus Nerd Font Mono"
   :height 140)
 
@@ -66,3 +68,6 @@
 (require 'evil)
 (evil-mode 1)
 (setq evil-insert-state-cursor 'box)
+
+(load-file "~/.emacs.d/themes/noctalia-theme.el")
+(load-theme 'noctalia t))
